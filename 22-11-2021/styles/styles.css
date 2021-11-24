@@ -126,6 +126,7 @@ header {
     width: 380px;
     height: 600px;
     font-size: 14px;
+    transition: ease-in-out 1s;
 }
 
 .block_cat-photo {
@@ -142,7 +143,6 @@ header {
 .card:hover {
     background-color: #ade834;
     transform: scale(1.05);
-    transition: ease-in-out 0.8s;
 }
 
 .info_text {
