@@ -1,0 +1,70 @@
+body {
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color:black;
+}
+table{
+    border-spacing: 0;
+    margin-bottom: 20px;
+}
+tr {
+    display:flex;
+}
+td {
+    border: 1px solid black;
+    width: 130px;
+    height: 65px;
+}
+td:hover {
+    background-color: lightgreen;
+    transition: ease-out 1.5s;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+}
+.red {
+    background-color: palevioletred;
+}
+.yellow {
+    background-color: #f3df06;
+}
+.blue {
+    background-color: lightskyblue;
+}
+.block-right{
+    width:46px;
+    text-align: right;
+}
+.block-left {
+    width: 46px;
+    text-align:left;
+}
+.block-names {
+    text-align: right;
+}
+.item {
+    overflow: visible;
+    font-size: 36px;
+    font-weight: bold;
+}
+.number {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.mass {
+    font-size:14px;
+    font-family: "Times New Roman";
+}
+.name {
+    width:74px;
+    overflow: visible;
+    font-weight: bolder;
+    font-size: 18px;
+}
