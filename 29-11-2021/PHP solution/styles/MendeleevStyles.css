@@ -1,0 +1,75 @@
+body {
+    margin: 10px;
+}
+h1, p {
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color:black;
+}
+table{
+    margin: 20px auto;
+    border-spacing: 0;
+}
+tr {
+    display:flex;
+}
+td {
+    color: black;
+    border: 1px solid black;
+    width: 130px;
+    height: 65px;
+    transition: ease-out 1s;
+}
+td:hover {
+    transform: scale(1.05);
+    background-color: lightgreen;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+}
+.red {
+    background-color: palevioletred;
+}
+.yellow {
+    background-color: #f3df06;
+}
+.blue {
+    background-color: lightskyblue;
+}
+.block-right{
+    width:46px;
+    text-align: right;
+}
+.block-left {
+    width: 46px;
+    text-align:left;
+}
+.block-names {
+    text-align: right;
+}
+.item {
+    overflow: visible;
+    font-size: 36px;
+    font-weight: bold;
+}
+.number {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Arial";
+}
+.mass {
+    font-size:14px;
+    font-family: "Times New Roman";
+}
+.name {
+    width:74px;
+    overflow: visible;
+    font-weight: bolder;
+    font-size: 18px;
+}
