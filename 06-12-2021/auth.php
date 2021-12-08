@@ -39,7 +39,8 @@
     </style>
     <title>Авторизация</title>
 </head>
-<body style="background-color: <?php echo $_COOKIE['backgroundColor']?>">
+<body style="background-color: <?php
+        if ($_COOKIE['Auth'] == 1 ) echo $_COOKIE['backgroundColor']?>">
     <main>
         <div>
             <p style="font-size:24px">

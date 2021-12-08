@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="styles/styles.css">
 
 </head>
-<body style="background-color: <?php echo $_COOKIE['backgroundColor']?>">
+<body style="background-color: <?php
+    if ($_COOKIE['Auth'] == 1 ) echo $_COOKIE['backgroundColor']?>">
         <?php
             require 'header.php'
         ?>
